@@ -2,11 +2,13 @@ package dz5;
 
 import java.util.Scanner;
 
-public class CalculatorPresenter {
-    private CalculatorModel model;
+
+
+public class CalculatorPresenter{
+    private CalculatorModelD model;
     private CalculatorView view;
 
-    public CalculatorPresenter(CalculatorModel model, CalculatorView view) {
+    public CalculatorPresenter(CalculatorModelD model, CalculatorView view) {
         this.model = model;
         this.view = view;
     }
@@ -41,3 +43,6 @@ public class CalculatorPresenter {
         view.displayResult(result);
     }
 }
+
+
+ 

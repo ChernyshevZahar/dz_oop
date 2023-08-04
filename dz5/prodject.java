@@ -2,7 +2,7 @@ package dz5;
 
 public class prodject {
     public static void main(String[] args) {
-        CalculatorModel model = new CalculatorModel();
+        CalculatorModelD model = new CalculatorModelD();
         CalculatorView view = new CalculatorView();
         CalculatorPresenter presenter = new CalculatorPresenter(model, view);
 
